@@ -1,12 +1,5 @@
-let fname = 'Vedant';
-let lname = 'R';
-let age = prompt("Guess Vedant's age..");
+function welcome(user, message) {
+  alert(`Hello ${user}, ${message}`);
+}
 
-//old way
-
-//let result = fname + ' ' + lname + ' is ' + age + ' years old';
-//alert(result);
-
-//using template string
-let result = ` ${fname} ${lname} is ${age} years old`;
-alert(result);
+welcome('Vedant', 'Good morning!');
