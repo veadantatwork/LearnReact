@@ -14,7 +14,7 @@ let createBlog = (title, body) => {
   if (!body) {
     throw new Error("Body can't be empty");
   }
-  return '${title}-${body}';
+  return alert(`${title} - ${body}`);
 };
 
-createBlog();
+createBlog('Blog title', 'Blog Body');
