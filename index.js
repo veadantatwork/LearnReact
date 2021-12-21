@@ -2,19 +2,19 @@
 //  return alert(`${message} everyone! `);
 //}
 
-//let greeting = (message) => alert(`${message} everyone!`);
+let greeting = () => alert(`Hello everyone!`);
 
-//greeting('Good Morning');
+greeting('Good Morning');
 
-let createBlog = (title, body) => {
-  if (!title) {
-    throw new Error('A title required');
-  }
+// let createBlog = (title, body) => {
+//   if (!title) {
+//     throw new Error('A title required');
+//   }
 
-  if (!body) {
-    throw new Error("Body can't be empty");
-  }
-  return alert(`${title} - ${body}`);
-};
+//   if (!body) {
+//     throw new Error("Body can't be empty");
+//   }
+//   return alert(`${title} - ${body}`);
+// };
 
-createBlog('Blog title', 'Blog Body');
+// createBlog('Blog title', 'Blog Body');
