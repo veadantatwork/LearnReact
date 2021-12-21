@@ -1,5 +1,5 @@
-function welcome(user = 'Mystery person', message = 'Goodday') {
-  alert(`Hello ${user}, ${message}`);
+function greeting(message) {
+  return alert(`${message} everyone! `);
 }
 
-welcome();
+greeting('Good Morning');
