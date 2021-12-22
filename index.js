@@ -6,5 +6,5 @@ let thingsToDo = {
 };
 
 let { morning, afternoon } = thingsToDo;
-
+morning = 'Run';
 console.log(morning, ' - ', afternoon);
