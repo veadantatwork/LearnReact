@@ -1,20 +1,6 @@
-//function greeting(message) {
-//  return alert(`${message} everyone! `);
-//}
+//Arrow function
+function sayHi() {}
 
-let greeting = () => alert(`Hello everyone!`);
+//this refers to enclosing function^^
 
-greeting('Good Morning');
-
-// let createBlog = (title, body) => {
-//   if (!title) {
-//     throw new Error('A title required');
-//   }
-
-//   if (!body) {
-//     throw new Error("Body can't be empty");
-//   }
-//   return alert(`${title} - ${body}`);
-// };
-
-// createBlog('Blog title', 'Blog Body');
+console.log(this);
