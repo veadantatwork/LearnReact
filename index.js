@@ -1,11 +1,10 @@
-let india = {
-  //add property
-  mountains: ['Aravali', 'Western Ghats', 'Eastern Ghats'],
-
-  //add method
-  printWithDash: function () {
-    setTimeout(() => console.log(this.mountains.join('-')), 3000);
-  },
+let thingsToDo = {
+  morning: 'Exercise',
+  afternoon: 'Work',
+  evening: 'Code',
+  night: ['Sleep', 'Dream'],
 };
 
-india.printWithDash();
+let { morning, afternoon } = thingsToDo;
+
+console.log(morning, ' - ', afternoon);
